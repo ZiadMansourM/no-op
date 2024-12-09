@@ -32,3 +32,16 @@ ziadh@Ziads-MacBook-Air no-op % tree
 
 4 directories, 7 files
 ```
+
+## Sample Output
+
+```bash 
+ziadh@Ziads-MacBook-Air no-op % go run .
+Running without SDK initialized:
+Doing some work in the instrumented function...
+
+Initializing SDK...
+Span started: instrumented_function
+Doing some work in the instrumented function...
+Span ended: instrumented_function
+```
